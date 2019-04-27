@@ -24,10 +24,10 @@ rm master.zip
 mv payloads-master xsuperbug
 
 ### NickSanzotta
-wget https://github.com/NickSanzotta/BurpIntruder/archive/master.zip
-unzip master.zip
-rm master.zip
-mv BurpIntruder-master NickSanzotta
+#wget https://github.com/NickSanzotta/BurpIntruder/archive/master.zip
+#unzip master.zip
+#rm master.zip
+#mv BurpIntruder-master NickSanzotta
 
 ### 7ioSecurity
 wget https://github.com/7ioSecurity/XSS-Payloads/archive/master.zip
@@ -90,10 +90,10 @@ rm master.zip
 mv HashCollision-DOS-POC-master HashCollision-DOS-POC
 
 ### HybrisDisaster
-wget https://github.com/FireFart/aspHashDoS/archive/master.zip
-unzip master.zip
-rm master.zip
-mv aspHashDoS-master aspHashDoS
+#wget https://github.com/FireFart/aspHashDoS/archive/master.zip
+#unzip master.zip
+#rm master.zip
+#mv aspHashDoS-master aspHashDoS
 
 ### swisskyrepo
 wget https://github.com/swisskyrepo/PayloadsAllTheThings/archive/master.zip
@@ -180,9 +180,34 @@ unzip master.zip
 rm master.zip
 mv web-cve-tests-master web-cve-tests
 
+### jhaddix Content Discovery
+wget https://gist.github.com/jhaddix/b80ea67d85c13206125806f0828f4d10/archive/c81a34fe84731430741e0463eb6076129c20c4c0.zip
+unzip c81a34fe84731430741e0463eb6076129c20c4c0.zip
+rm c81a34fe84731430741e0463eb6076129c20c4c0.zip
+mv c81a34fe84731430741e0463eb6076129c20c4c0 jhaddix
+
+### jhaddix Cloud Metadata URL's
+wget https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056/archive/96f4e51d96b2203f19f6381c8c545b278eaa0837.zip
+unzip 96f4e51d96b2203f19f6381c8c545b278eaa0837.zip
+rm 96f4e51d96b2203f19f6381c8c545b278eaa0837.zip
+mv 96f4e51d96b2203f19f6381c8c545b278eaa0837 jhaddix
+
+### jhaddix DNS
+wget https://gist.github.com/jhaddix/78cece26c91c6263653f31ba453e273b/archive/a4869d58a5ce337d1465c2d1b29777b9eecd371f.zip
+unzip a4869d58a5ce337d1465c2d1b29777b9eecd371f.zip
+rm a4869d58a5ce337d1465c2d1b29777b9eecd371f.zip
+mv a4869d58a5ce337d1465c2d1b29777b9eecd371f jhaddix
+
+###kurobeats/xss_vectors.txt
+https://gist.github.com/kurobeats/9a613c9ab68914312cbb415134795b45/archive/954b4d3a29cd0fbeb5b841b54126326a6c14a5c1.zip
+unzip 954b4d3a29cd0fbeb5b841b54126326a6c14a5c1.zip
+rm 954b4d3a29cd0fbeb5b841b54126326a6c14a5c1.zip
+mv 954b4d3a29cd0fbeb5b841b54126326a6c14a5c1 xss-vectors
+
+
+
 ###### Uncompress these files
 echo Extracting compressed payload files...
-
 gunzip ctf/maccdc2010.txt.gz
 gunzip ctf/maccdc2011.txt.gz
 gunzip ctf/maccdc2012.txt.gz
